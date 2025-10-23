@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Weekly Rankings</h2>
+  <div hx-get="/api/rankings?position=RB&week=1" hx-trigger="load" hx-target="#rankings" hx-swap="innerHTML"></div>
+  <ul id="rankings"></ul>
+{% endblock %}

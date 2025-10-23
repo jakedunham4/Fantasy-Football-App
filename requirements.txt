@@ -1,0 +1,9 @@
+flask>=3.0
+flask-caching
+flask-sqlalchemy
+pydantic>=2.6
+requests
+apscheduler
+python-dotenv
+pytest
+httpx
